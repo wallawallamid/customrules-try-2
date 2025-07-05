@@ -1,0 +1,12 @@
+name: customrules
+version: '1.1'
+main: me.lampa.customrules.CustomRules
+api-version: '1.21'
+load: STARTUP
+authors: [ Lampa ]
+description: Restrictions for crystals, totems, elytra, debris and mace
+commands:
+  clearnetherite:
+    description: Removes all netherite from players, containers, and the world
+    usage: /clearnetherite
+    permission: customrules.admin
